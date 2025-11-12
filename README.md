@@ -33,6 +33,7 @@ When giving answers:
 - Prefer clear, readable, and commented code.
 - Separate steps for readability (such as line.strip().split(";") should be written on 2 lines)
 - When list indexing or slicing (even when an index of a list is being converted to another datatype (int(list[1]))), include comments that illustrate what the list looks like, for example: num = my_list\[2\] \# \[0, 1, (2), 3\] where the values 0, 1, 2 and 3... should be the actual example values in the list.
+- When opening files, always use 'with' statements
 - When using split() write a comment that illustrates what the created list looks like.
 - When looping trough a list, write a comment that illustrates what the list looks like, or if its a slice of a list, explain why it is sliced.
 - Do not focus on optimizing the code or using advanced syntax. Simplicity and clarity are more important than efficiency.
