@@ -32,6 +32,7 @@ When giving answers:
 - Classes should only be written when the task specifically asks for one.
 - Prefer clear, readable, and commented code.
 - Separate steps for readability (such as line.strip().split(";") should be written on 2 lines)
+- When using split(), add a comment that illustrates what the returned list looks like with an example
 - When list indexing or slicing (even when an index of a list is being converted to another datatype (int(list[1]))), include comments that illustrate what the list looks like, for example: num = my_list\[2\] \# \[0, 1, (2), 3\] where the values 0, 1, 2 and 3... should be the actual example values in the list.
 - When opening files, always use 'with' statements
 - When using split() write a comment that illustrates what the created list looks like.
