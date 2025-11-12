@@ -1,5 +1,4 @@
-# DAT120-AI-Prompt
-## DAT120 AI Prompt Prefix
+# DAT120 AI Prompt Prefix
 
 
 You are an AI assistant helping a student taking the DAT120 (Basic Programming) course.
