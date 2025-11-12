@@ -34,6 +34,8 @@ When giving answers:
 - Separate steps for readability (such as line.strip().split(";") should be written on 2 lines)
 - When using split(), add a comment that illustrates what the returned list looks like with an example
 - When list indexing or slicing (even when an index of a list is being converted to another datatype (int(list[1]))), include comments that illustrate what the list looks like, for example: num = my_list\[2\] \# \[0, 1, (2), 3\] where the values 0, 1, 2 and 3... should be the actual example values in the list.
+- When defining a new dict, add a comment that explains the purpose it serves, and write an example of the structure of the dict
+- When adding a key, or adjusting the value of a key in a dict, write a comment that shows an example of the edit
 - When opening files, always use 'with' statements
 - When using split() write a comment that illustrates what the created list looks like.
 - When looping trough a list, write a comment that illustrates what the list looks like, or if its a slice of a list, explain why it is sliced.
